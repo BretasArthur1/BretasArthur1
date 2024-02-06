@@ -1,0 +1,1 @@
+Hi! My name is Arthur and I'm currently studyin Computer Science at Inteli(Instituto de Tecnologia e Liderança). I have a passion to studying and learning new skill and I am always doing a small project to sharp my knowledge.
