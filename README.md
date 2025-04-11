@@ -12,7 +12,7 @@
  
  🔭 I’m currently studing on **Inteli**
  
- 🌱 I’m currently learning **Solana, Rust and TS**
+ 🌱 I’m currently looking to work on **Solana** with Rust and TS
  
  🧠 Apart from coding, I have a deep passion for chess, finding it to be a perfect blend of strategy, creativity, and critical thinking.
 
