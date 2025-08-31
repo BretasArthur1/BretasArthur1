@@ -1,17 +1,31 @@
 name: Metrics
+
 on:
-  schedule: [{cron: "0 */12 * * *"}] # Atualiza a cada 12h
-  workflow_dispatch: # Permite rodar manualmente
+  schedule: [{ cron: "0 */12 * * *" }]   # a cada 12h
+  workflow_dispatch:                     # rodar manualmente
+  push: { branches: ["main"] }           # opcional
+
+permissions:
+  contents: write                        # PRECISA escrever no repo
 
 jobs:
-  github-metrics:
+  build:
     runs-on: ubuntu-latest
     steps:
       - uses: lowlighter/metrics@latest
         with:
-          token: ${{ secrets.METRICS_TOKEN }}
+          token: ${{ secrets.METRICS_TOKEN }}   # seu PAT
           user: BretasArthur1
           template: classic
-          base: ""
+          base: ""                              # não mostra header/base
+          filename: github-metrics.svg          # <<< nome do arquivo
           config_timezone: America/Sao_Paulo
+
           plugin_repositories: yes
+          plugin_repositories_contributed: yes
+          plugin_repositories_featured: 0       # não pinar manuais
+          plugin_repositories_forks: no
+          plugin_repositories_affiliations: ""  # só contribuições
+
+          # Opcional: deixar só essa seção mesmo
+          repositories: 100
