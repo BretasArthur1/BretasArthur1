@@ -1,3 +1,4 @@
+# .github/workflows/metrics.yml
 name: Metrics
 on:
   schedule: [{ cron: "0 */12 * * *" }]
@@ -18,9 +19,13 @@ jobs:
           filename: github-metrics.svg
           config_timezone: America/Sao_Paulo
 
-          
+          # Notable = automático (top contribs)
           plugin_notable: yes
-          plugin_notable_from: all              
-          plugin_notable_types: pull_request, issue, commit
-          plugin_notable_indepth: yes            
-          plugin_notable_repositories: 5         
+          plugin_notable_from: organization     # só orgs (tira usuários avulsos)
+          plugin_notable_types: pull_request    # só PRs (mais “sinal” e menos “ruído”)
+          plugin_notable_indepth: no            # remove detalhes extras para ficar enxuto
+          plugin_notable_repositories: 6        # limite de quantos mostrar (ex.: 4–8 é bom)
+
+          # Se quiser incluir também repos próprios com impacto, mude para:
+          # plugin_notable_from: all
+          # plugin_notable_types: pull_request,commit
