@@ -1,9 +1,7 @@
 name: Metrics
-
 on:
   schedule: [{ cron: "0 */12 * * *" }]
   workflow_dispatch:
-
 permissions:
   contents: write
 
@@ -20,5 +18,9 @@ jobs:
           filename: github-metrics.svg
           config_timezone: America/Sao_Paulo
 
-          # mostra os repositórios contribuídos
-          plugin_repositories: yes
+          
+          plugin_notable: yes
+          plugin_notable_from: all              
+          plugin_notable_types: pull_request, issue, commit
+          plugin_notable_indepth: yes            
+          plugin_notable_repositories: 5         
