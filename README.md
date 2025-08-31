@@ -58,3 +58,14 @@
 <img alt="Streak Stats" src="https://streak-stats.demolab.com/?user=BretasArthur1&count_private=true&theme=react&border_radius=10"/>
 </div>
 </details>
+
+---
+
+## 🌟 Notable Contributions
+
+<div align="center">
+
+![Metrics](https://raw.githubusercontent.com/BretasArthur1/BretasArthur1/main/github-metrics.svg?v=3)
+
+</div>
+
