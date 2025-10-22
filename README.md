@@ -10,7 +10,7 @@
 
 <div align="center">
  
- 💻 I’m currently building **Surfpool**
+ 💻 I’m currently working on **SonicSVM**
  
  🧠 Apart from coding, I have a deep passion for chess, finding it to be a perfect blend of strategy, creativity, and critical thinking.
 
