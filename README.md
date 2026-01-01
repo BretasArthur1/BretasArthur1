@@ -29,7 +29,8 @@
 <h2 align="center">⚒️ Languages • Frameworks • Tools ⚒️</h2>
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=rust,python,typescript,c" /><br/>
+  <img src="https://skillicons.dev/icons?i=rust,python,typescript,c" />
+  <img src="https://solana.com/src/img/branding/solanaLogoMark.svg" alt="Solana Logo" width="50" height="50" /><br/>
   <img src="https://skillicons.dev/icons?i=github,git,docker,linux,aws" />
 </div>
 
