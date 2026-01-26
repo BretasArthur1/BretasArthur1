@@ -9,7 +9,7 @@
 </h3>
 
 <p align="center">
-  ⚡ Currently working on <b>SonicSVM</b><br/>
+  ⚡ Currently working on <b>Cloak</b><br/>
   ♟️ Away from the keyboard, I enjoy chess as a playground for strategy and creativity.
 </p>
 
