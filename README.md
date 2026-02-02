@@ -5,11 +5,12 @@
 </h1>
 
 <h3 align="center">
-  Software engineer focused on <b>Solana</b> and <b>Rust</b>, building reliable, high-performance systems.
+  I like <b>Rust</b> and <b>Solana</b>.
+  Surfing in the Sealevel Virtual Machine
 </h3>
 
 <p align="center">
-  ⚡ Currently working on <b>Cloak</b><br/>
+  ⚡ Currently building <b>Cloak</b><br/>
   ♟️ Away from the keyboard, I enjoy chess as a playground for strategy and creativity.
 </p>
 
