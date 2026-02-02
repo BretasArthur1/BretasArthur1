@@ -5,13 +5,12 @@
 </h1>
 
 <h3 align="center">
-  I like <b>Rust</b> and <b>Solana</b>.
   Surfing in the Sealevel Virtual Machine
 </h3>
 
 <p align="center">
-  ⚡ Currently building <b>Cloak</b><br/>
-  ♟️ Away from the keyboard, I enjoy chess as a playground for strategy and creativity.
+  Currently building <b>Cloak</b><br/>
+  I enjoy chess, open source and rust 🦀.
 </p>
 
 <br/>
