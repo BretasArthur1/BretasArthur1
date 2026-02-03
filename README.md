@@ -5,7 +5,7 @@
 </h1>
 
 <h3 align="center">
-  Surfing in the Sealevel Virtual Machine
+  Surfing the Sealevel Virtual Machine
 </h3>
 
 <p align="center">
